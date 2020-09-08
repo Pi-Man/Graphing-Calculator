@@ -15,6 +15,9 @@
 *.so
 *.dylib
 *.dll
+!SDL2.dll
+!SDL2_ttf.dll
+!SDL2main.dll
 
 # Fortran module files
 *.mod
@@ -25,8 +28,19 @@
 *.la
 *.a
 *.lib
+!SDL2.lib
+!SDL2_ttf.lib
+!SDL2main.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+*.tlog
+*.log
+*.idb
+*.pdb
+*.enc
+
+Graph.zip
